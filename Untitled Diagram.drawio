@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T02:20:05.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="uVrQP5QGghkZhK9bIs-K" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T02:32:31.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="t_H6G7KaEWBLUbOYJPav" version="15.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="背板测试流程">
-    <mxGraphModel dx="784" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="922" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="U5By7kQHrwsn1RTSyT56-1" value="人工放入治具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="20" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="20" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-1" target="U5By7kQHrwsn1RTSyT56-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="250" as="sourcePoint" />
-            <mxPoint x="330" y="110" as="targetPoint" />
+            <mxPoint x="540" y="250" as="sourcePoint" />
+            <mxPoint x="400" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-3" target="U5By7kQHrwsn1RTSyT56-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-3" value="连接前板（测试板）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="90" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-5" target="U5By7kQHrwsn1RTSyT56-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="230" />
-              <mxPoint x="310" y="230" />
+              <mxPoint x="380" y="230" />
+              <mxPoint x="380" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -31,7 +31,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-5" value="按压设置按键，前板发送测试指令" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="160" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-10" value="异常" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-7" target="U5By7kQHrwsn1RTSyT56-9">
           <mxGeometry relative="1" as="geometry" />
@@ -42,56 +42,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-7" value="进入测试模式" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="255" y="240" width="110" height="80" as="geometry" />
+          <mxGeometry x="325" y="240" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-9" value="前板低压灯点亮（红色），屏幕显示错误编号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-27" value="正常" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-7" target="U5By7kQHrwsn1RTSyT56-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="305" y="430" as="sourcePoint" />
+            <mxPoint x="375" y="430" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-24" value="前后板通讯测试" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="257.5" width="170" height="45" as="geometry" />
+          <mxGeometry x="20" y="257.5" width="170" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-29" value="异常" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-26" target="U5By7kQHrwsn1RTSyT56-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U5By7kQHrwsn1RTSyT56-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-26" target="U5By7kQHrwsn1RTSyT56-30">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="U5By7kQHrwsn1RTSyT56-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="440.0588235294118" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-34" value="正常" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-26" target="U5By7kQHrwsn1RTSyT56-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="640" as="targetPoint" />
+            <mxPoint x="380" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-26" value="背板硬件自检" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="255" y="400" width="110" height="80" as="geometry" />
+          <mxGeometry x="325" y="400" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-28" value="&lt;span&gt;前板低压灯点亮（红色），&lt;/span&gt;屏幕显示错误编号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U5By7kQHrwsn1RTSyT56-30" value="1、电量检测自检（稳压源提供7V）;&lt;br&gt;2、电机控制，堵转检测自检，输出端串20Ω电阻，检测到对应电流在350mA左右;&lt;br&gt;3、门铃声响起；&lt;br&gt;4、按键检测自检（两路按键短接）；&lt;br&gt;5、联网模块管脚自检；&lt;br&gt;1）猫眼版：串口自检（短接），两路控制管脚自检（短接）&lt;br&gt;2）涂鸦版：串口自检（短接）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="325" width="160" height="230" as="geometry" />
+        <mxCell id="U5By7kQHrwsn1RTSyT56-30" value="1、电量检测自检（稳压源提供7V）;&lt;br&gt;2、电机控制，堵转检测自检，输出端串20Ω电阻，检测到对应电流在350mA左右;&lt;br&gt;3、门铃声响起；&lt;br&gt;4、按键检测自检（两路按键短接）；&lt;br&gt;5、联网模块管脚自检；&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1）猫眼版：串口自检（短接），两路控制管脚自检（短接）&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2）涂鸦版：串口自检（短接）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="325" width="260" height="230" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-35" target="U5By7kQHrwsn1RTSyT56-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-35" value="前板背光灯亮起" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="255" y="540" width="110" height="60" as="geometry" />
+          <mxGeometry x="325" y="540" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U5By7kQHrwsn1RTSyT56-36" target="U5By7kQHrwsn1RTSyT56-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-36" value="按*号键退出，进入功耗测试" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="255" y="650" width="110" height="60" as="geometry" />
+          <mxGeometry x="325" y="650" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-38" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="255" y="760" width="110" height="40" as="geometry" />
+          <mxGeometry x="325" y="760" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5By7kQHrwsn1RTSyT56-41" value="如果不进入测试模式，则表示设置键连线异常" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="150" width="130" height="60" as="geometry" />
+          <mxGeometry x="20" y="150" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U5By7kQHrwsn1RTSyT56-43" value="错误编号定义如下：&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;0：前后版通讯异常;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1：电流测试项异常;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2：电机测试项异常;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3：按键测试项异常;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;4：猫眼控制IO测试项异常;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;5：猫眼串口测试项异常;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;6：涂鸦串口测试项异常;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="495" width="210" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
